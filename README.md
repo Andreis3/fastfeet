@@ -1,7 +1,8 @@
 
+![logo](https://user-images.githubusercontent.com/38704247/76477002-be9de900-63e2-11ea-8320-95d52f30f7fa.png)
 
 <h3 align="center">
-  Desafio 2: FastFeet, o início
+  FastFeet, o início
 </h3>
 
 <h3 align="center">
