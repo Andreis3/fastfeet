@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js",
+    "lint": "eslint --fix src --ext .js",
+    "docker:postgres": "docker run --name fastfeet -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
