@@ -1,4 +1,7 @@
-<img src= "https://user-images.githubusercontent.com/38704247/76477002-be9de900-63e2-11ea-8320-95d52f30f7fa.png"/>
+<h1 align="center">
+
+  <img src= "https://user-images.githubusercontent.com/38704247/76477002-be9de900-63e2-11ea-8320-95d52f30f7fa.png"/>
+</h1>
 
 <h3 align="center">
   FastFeet, o início
