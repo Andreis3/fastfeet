@@ -1,5 +1,4 @@
-
-![logo](https://user-images.githubusercontent.com/38704247/76477002-be9de900-63e2-11ea-8320-95d52f30f7fa.png)
+<img align="center" ![logo](https://user-images.githubusercontent.com/38704247/76477002-be9de900-63e2-11ea-8320-95d52f30f7fa.png) >
 
 <h3 align="center">
   FastFeet, o início
@@ -11,7 +10,7 @@
 
 <p>Esse desafio faz parte do Desafio Final, que é uma aplicação completa (Back-end, Front-end e Mobile) que é avaliada para emissão do Certificado do Bootcamp GoStack, por isso é fundamental que ele seja feito com muito empenho!</p>
 
-<blockquote align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
+
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-02?color=%2304D361">
