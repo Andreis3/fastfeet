@@ -35,7 +35,7 @@ class RecipientsController {
   }
 
   async update(req, res) {
-    const { id } = req.params;
+    const { id: idUser } = req.params;
     const schema = Yup.object().shape({
       name: Yup.string().required(),
       street: Yup.string().required(),
@@ -50,9 +50,10 @@ class RecipientsController {
       return res.status(400).json({ error: 'Validation fails' });
     }
 
-    const recipient = await Recipients.findByPk(id);
+    const recipient = await Recipients.findByPk(idUser);
 
     const {
+      id,
       name,
       street,
       number,
@@ -75,27 +76,20 @@ class RecipientsController {
   }
 
   async listAll(req, res) {
-    const {
-      id,
-      name,
-      street,
-      number,
-      complement,
-      state,
-      city,
-      zip_code,
-    } = await Recipients.findAll();
-
-    return res.status(200).json({
-      id,
-      name,
-      street,
-      number,
-      complement,
-      state,
-      city,
-      zip_code,
+    const recipients = await Recipients.findAll({
+      attributes: [
+        'id',
+        'name',
+        'street',
+        'number',
+        'complement',
+        'state',
+        'city',
+        'zip_code',
+      ],
     });
+
+    return res.status(200).json({ recipients });
   }
 
   async listById(req, res) {
