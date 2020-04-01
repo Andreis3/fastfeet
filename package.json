@@ -7,7 +7,7 @@
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js",
     "lint": "eslint --fix src --ext .js",
-    "docker:postgres": "docker run --name fastfeet -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres"
+    "docker:postgres": "docker run --name fastfeet -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
